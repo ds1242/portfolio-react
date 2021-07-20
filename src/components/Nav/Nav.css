@@ -1,0 +1,31 @@
+:root{
+    --primary_color:#0b132b;
+    --secondary_color:#0DAB76;
+    --tertiary_color:#edf2f4;
+    --quartiary_color:#45503b;
+    --cinqieme_color:#B1740F;
+}
+/* body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:var(--primary_color);
+    background-color:#8d99ae; */
+/* } */
+nav {
+    background-color:var(--primary_color);
+}
+nav a {
+    color:var(--secondary_color); 
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+nav h1:hover{
+    color: var(--tertiary_color);
+    text-shadow:2px 2px 5px var(--tertiary_color);
+}
+nav h3 {
+    color:var(--secondary_color); 
+    text-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+nav h3:hover{
+    color: var(--tertiary_color);
+    text-shadow:2px 2px 5px var(--tertiary_color);
+}
