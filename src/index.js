@@ -6,6 +6,7 @@ import './index.css';
 // import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import App from './components/App';
+import "bootstrap-icons/font/bootstrap-icons.css";
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
