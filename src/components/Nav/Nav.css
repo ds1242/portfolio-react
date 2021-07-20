@@ -1,15 +1,15 @@
-*{
+/* *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-  }
-:root{
+  } */
+/* :root{
     --primary_color:#0b132b;
     --secondary_color:#0DAB76;
     --tertiary_color:#edf2f4;
     --quartiary_color:#45503b;
     --cinqieme_color:#B1740F;
-}
+} */
 /* body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:var(--primary_color);

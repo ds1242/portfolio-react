@@ -13,7 +13,7 @@ function Nav() {
             
                 <div className="d-flex">
                     <div className="navbar-nav">
-                        <a className="nav-link active" href="#about-me"><h3>About Me</h3></a>
+                        <a className="nav-link active" href="#about"><h3>About Me</h3></a>
                         <a className="nav-link active" href="#work"><h3>Work</h3></a>
                         <a className="nav-link active" href="#contact-me"><h3>Contact</h3></a>
                         <a className="nav-link active" href="#resume"><h3>Resume</h3></a>
