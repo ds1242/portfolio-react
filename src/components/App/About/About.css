@@ -1,0 +1,17 @@
+#about-title {
+    align-items: center;
+    padding: 10px;
+}
+
+#about-me-img {
+    width:60%;
+    border-radius: 25px;
+    align-content: center;
+}
+
+#about-text{
+    display: flex;
+    padding: 25px;
+    align-items:flex-start;
+    font-size: 2vw;
+}
