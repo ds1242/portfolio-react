@@ -1,26 +1,27 @@
 import React from 'react';
 import './Nav.css';
 
+
+
 function Nav() {
     return (
-        <header data-testid="header" className="flex-row px-1">
-            {/* <nav> */}
-                {/* <h2>
-                    <a data-testid="link" href="/">
-                        David's Portfolio
-                    </a>
-                </h2>
-                
-                    <ul className="flex-row">
-                        <li className="mx-2">
-                            <a data-testid="about" href="#about">About Me</a>
-                        </li>
-                        <li>Contact</li>
-                        <li>Portfolio</li>
-                        <li>Resume</li>
-                    </ul> */}
-            {/* </nav> */}
-        </header>
+        <nav className="navbar" data-testid="navbar">
+            <div className="container-fluid navbar-expand-lg">
+                <a className="navbar-brand" href="/">
+                    <h1>David's Portfolio</h1>
+                </a>
+            
+                <div className="d-flex">
+                    <div className="navbar-nav">
+                        <a className="nav-link active" href="#about-me"><h3>About Me</h3></a>
+                        <a className="nav-link active" href="#work"><h3>Work</h3></a>
+                        <a className="nav-link active" href="#contact-me"><h3>Contact</h3></a>
+                        <a className="nav-link active" href="#resume"><h3>Resume</h3></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
     )
 };
 
