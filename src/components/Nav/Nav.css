@@ -34,28 +34,42 @@ nav h3:hover{
     color: var(--tertiary_color);
     text-shadow:2px 2px 5px var(--tertiary_color);
 }
-/* .container {
-    width: 85%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+
+/* @media (min-width: 576px) { ... } */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { 
+    
+ } */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */ 
+@media screen and (max-width:980px){
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        position:relative;
+        width:100%;
+        /* padding:0px; */
+        /* margin:0; */
+    }
+    header h1{
+        width:100%;
+        text-align: center;
+        font-size: 50px;
+    }
+    header nav {
+        width: 100%;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width:100%;
+        justify-content: center;
+    }
+    header nav ul li a{
+        font-size: 35px;
+    }
 }
-.flex-row {
-    display: flex;
-    flex-wrap: wrap;
-}
-.space-between {
-    justify-content: space-between;
-}
-  
-.flex-end {
-    justify-content: flex-end;
-}
-.px-1 {
-    padding-right: var(--spacing-one);
-    padding-left: var(--spacing-one);
-}
-.mx-2 {
-    margin-right: var(--spacing-two);
-    margin-left: var(--spacing-two);
-  } */
