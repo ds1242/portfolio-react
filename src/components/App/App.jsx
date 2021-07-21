@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Nav from '../Nav';
 import About from '../About';
 import Footer from '../Footer';
+import ContactForm from '../Contact';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Nav></Nav>
       <main>
         <About></About>
+
+        <ContactForm></ContactForm>
       </main>   
 
       <Footer></Footer>
