@@ -64,50 +64,89 @@ exports[`App component matches snapshot 1`] = `
         </div>
       </div>
     </nav>
-    <section>
-      <img
-        alt="cover"
-        class="cover-image"
-        src="mountain2.jpg"
-        style="width: 100%;"
-      />
-      <div
-        class="row"
-        id="about-title"
+    <main>
+      <section
+        id="about-section"
       >
-        <h1
-          id="about"
-        >
-          Who Am I
-        </h1>
-      </div>
-      <div
-        class="container"
-      >
+        <img
+          alt="cover"
+          class="cover-image"
+          src="mountain2.jpg"
+          style="width: 100%;"
+        />
         <div
           class="row"
+          id="about-title"
+        >
+          <h1
+            id="about"
+          >
+            Who Am I
+          </h1>
+        </div>
+        <div
+          class="container"
         >
           <div
-            class="col-md-6"
+            class="row"
           >
-            <img
-              alt="David hiking in fall"
-              class="personal-photo"
-              id="about-me-img"
-              src="IMG_3529.jpg"
-            />
-          </div>
-          <div
-            class="col-md-6"
-            id="about-text"
-          >
-            <p>
-              Full stack web developer with several years of Business Analyst experience and a degree in Information Systems from the University of Utah.  Recently earned a certificate in full stack web development from the University of Utah. Skills in HTML, CSS, Javascript, and Node.js.  Always learning new technologies and improving to strive to create impactful web applications for end users.  My variety of previous experiences provide me with a unique perspective to know when and what questions to ask to ensure that applications provide the best results and utility for end users.
-            </p>
+            <div
+              class="col-md-6"
+            >
+              <img
+                alt="David hiking in fall"
+                class="personal-photo"
+                id="about-me-img"
+                src="IMG_3529.jpg"
+              />
+            </div>
+            <div
+              class="col-md-6"
+              id="about-text"
+            >
+              <p>
+                Full stack web developer with several years of Business Analyst experience and a degree in Information Systems from the University of Utah.  Recently earned a certificate in full stack web development from the University of Utah. Skills in HTML, CSS, Javascript, and Node.js.  Always learning new technologies and improving to strive to create impactful web applications for end users.  My variety of previous experiences provide me with a unique perspective to know when and what questions to ask to ensure that applications provide the best results and utility for end users.
+              </p>
+            </div>
           </div>
         </div>
+      </section>
+    </main>
+    <footer
+      class="footer mt-auto "
+      datatest-id="footer"
+    >
+      <div>
+        <h5
+          id="info-id"
+        >
+          My Info:
+          <a
+            href="https://github.com/ds1242"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <i
+              class="bi bi-github"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/david-shaw1242"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <i
+              class="bi bi-linkedin"
+            />
+          </a>
+        </h5>
+        <h5
+          datatest-id="date"
+        >
+          Copyright © 2021
+        </h5>
       </div>
-    </section>
+    </footer>
   </div>
 </DocumentFragment>
 `;
