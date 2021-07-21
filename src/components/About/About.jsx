@@ -6,8 +6,7 @@ import './About.css';
 
 function About() {
     return (
-        <section>
-            
+        <section id="about-section">            
             <img src={coverImage} className="cover-image" style={{ width: "100%" }} alt="cover" />
             <div className="row" id="about-title">
                 <h1 id="about">Who Am I</h1>
