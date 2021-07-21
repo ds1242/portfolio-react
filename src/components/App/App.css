@@ -17,3 +17,15 @@ body{
   background-color:#8d99ae;
 }
 
+footer{
+  padding:20px 35px;
+  background-color: #0b132b;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer h5 {
+  color:var(--secondary_color); 
+  text-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
