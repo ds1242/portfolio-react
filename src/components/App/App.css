@@ -52,3 +52,7 @@ footer i:hover{
   width: 65vw;
 }
 
+.navActive a{
+  text-decoration: underline;
+  text-decoration-color: var(--secondary_color);
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Nav.css';
 
 
@@ -22,22 +22,22 @@ function Nav(props) {
                     <h1>David's Portfolio</h1>
                 </a>
                     <ul className="navbar-nav ">
-                        <li>
+                        <li className={`${aboutSelected && 'navActive'}`}>
                             <a className="nav-link active" data-testid="about" href="#about"                             
                             onClick={() => { setAboutSelected(true); setContactSelected(false); setResumeSelected(false); setWorkSelected(false); }}>
                             <h3>About Me</h3></a>
                         </li>
-                        <li>
+                        <li className={`${workSelected && 'navActive'}`}>
                             <a className="nav-link active" href="#work"
                             onClick={() => { setAboutSelected(false); setContactSelected(false); setWorkSelected(true); setResumeSelected(false); }}>
                             <h3>My Projects</h3></a>                            
                         </li>
-                        <li>
+                        <li className={`${contactSelected && 'navActive'}`}>
                             <a className="nav-link active" href="#contact-me" 
                             onClick={() => { setAboutSelected(false); setContactSelected(true); setWorkSelected(false); setResumeSelected(false); }}>
                             <h3>Contact</h3></a>
                         </li>
-                        <li>
+                        <li className={`${resumeSelected && 'navActive'}`}>
                             <a className="nav-link active" href="#resume" 
                             onClick={() => { setAboutSelected(false); setContactSelected(false); setWorkSelected(false); setResumeSelected(true); }}>
                             <h3>Resume</h3></a>
