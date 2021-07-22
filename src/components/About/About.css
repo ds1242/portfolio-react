@@ -21,5 +21,28 @@
 
 #about-section {
     padding: 0 0 30px 0;
+    
 }
 
+
+@media (max-width: 980px) { 
+
+    #about-content {
+        display: flex;
+        justify-content: center;
+    }
+    #about-me-img {
+        width:100%;
+        border-radius: 25px;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #about-text{
+        display: flex;
+        /* padding: 25px; */
+        align-items:flex-start;
+        font-size: 24px;
+        padding: 25px 0 25 0;
+    }
+}

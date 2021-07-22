@@ -1,6 +1,6 @@
-#resume-section {
+/* #resume-section {
     align-items: center;
-}
+} */
 
 #resume-section h1{
     text-align: center;
@@ -12,4 +12,8 @@
 
 #resume-card{
     width: 65vw;
+    align-items: center;
+}
+.container-fluid {
+    align-content: center;
 }
