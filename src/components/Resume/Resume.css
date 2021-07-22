@@ -1,19 +1,52 @@
 /* #resume-section {
     align-items: center;
 } */
-
+#card-link {
+    width: auto;
+}
 #resume-section h1{
     text-align: center;
     padding: 20px;
     color: var(--primary_color);
     text-shadow: 2px 2px var(--secondary_color);
     
+    
 }
 
 #resume-card{
     width: 65vw;
     align-items: center;
+    border-radius: 21px;
 }
+
+#resume-card:hover {
+    filter:brightness(50%);
+    box-shadow:  5px 5px 10px var(--secondary_color);
+    border-radius: 20px;
+}
+
 .container-fluid {
     align-content: center;
+}
+.card{
+    background-color: var(--primary_color);
+    color: var(--secondary_color);    
+    width:100%;
+    
+}
+
+.card-img-top{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+@media (max-width: 980px) { 
+    #resume-card{
+        width: auto;
+        align-content: center;
+    }
 }

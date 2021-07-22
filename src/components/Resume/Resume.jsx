@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import resumePreview from '../../assets/imgs/resume_snapshot.png';
+import resumeDoc from '../../assets/docs/David_Shaw_Resume_July2021.pdf';
 import './Resume.css';
 
 
@@ -8,12 +9,16 @@ function Resume() {
         <section id="resume-section">
             <h1 datatest-id='resume' className='resume' id="resume">Resume</h1>
             <div className="row justify-content-md-center">
-                <div className="card" id='resume-card'>
-                    <img className="card-img-top" src={resumePreview} alt="Card image cap" />
-                    <div className="card-body">
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                
+                <a href={resumeDoc} id="card-link" download="resume">
+                    <div className="card" id='resume-card'>
+                        <img className="card-img-top" src={resumePreview} alt="preview of resume" />
+                        <div className="card-body">
+                            <p className="card-text">Click To Download Resume</p>
+                        </div>
                     </div>
-                </div>
+                </a>
+
             </div>
         </section>
     )
