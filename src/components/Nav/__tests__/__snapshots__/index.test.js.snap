@@ -2,64 +2,78 @@
 
 exports[`Nav component matches snapshot 1`] = `
 <DocumentFragment>
-  <nav
-    class="navbar"
-    data-testid="navbar"
-  >
-    <div
-      class="container-fluid navbar-expand-lg"
+  <header>
+    <nav
+      class="navbar navbar-expand-sm"
+      data-testid="navbar"
     >
-      <a
-        class="navbar-brand"
-        data-testid="link"
-        href="/"
-      >
-        <h1>
-          David's Portfolio
-        </h1>
-      </a>
       <div
-        class="d-flex"
+        class="container-fluid "
       >
-        <div
-          class="navbar-nav"
+        <a
+          class="navbar-brand"
+          data-testid="link"
+          href="/"
         >
-          <a
-            class="nav-link active"
-            data-testid="about"
-            href="#about"
+          <h1>
+            David's Portfolio
+          </h1>
+        </a>
+        <ul
+          class="navbar-nav "
+        >
+          <li
+            class="undefined"
           >
-            <h3>
-              About Me
-            </h3>
-          </a>
-          <a
-            class="nav-link active"
-            href="#work"
+            <a
+              class="nav-link active"
+              data-testid="about"
+              href="#about"
+            >
+              <h3>
+                About Me
+              </h3>
+            </a>
+          </li>
+          <li
+            class="undefined"
           >
-            <h3>
-              Work
-            </h3>
-          </a>
-          <a
-            class="nav-link active"
-            href="#contact-me"
+            <a
+              class="nav-link active"
+              href="#work"
+            >
+              <h3>
+                My Projects
+              </h3>
+            </a>
+          </li>
+          <li
+            class="undefined"
           >
-            <h3>
-              Contact
-            </h3>
-          </a>
-          <a
-            class="nav-link active"
-            href="#resume"
+            <a
+              class="nav-link active"
+              href="#contact-me"
+            >
+              <h3>
+                Contact
+              </h3>
+            </a>
+          </li>
+          <li
+            class="undefined"
           >
-            <h3>
-              Resume
-            </h3>
-          </a>
-        </div>
+            <a
+              class="nav-link active"
+              href="#resume"
+            >
+              <h3>
+                Resume
+              </h3>
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 </DocumentFragment>
 `;

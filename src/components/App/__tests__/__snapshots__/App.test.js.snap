@@ -5,65 +5,79 @@ exports[`App component matches snapshot 1`] = `
   <div
     class="App"
   >
-    <nav
-      class="navbar"
-      data-testid="navbar"
-    >
-      <div
-        class="container-fluid navbar-expand-lg"
+    <header>
+      <nav
+        class="navbar navbar-expand-sm"
+        data-testid="navbar"
       >
-        <a
-          class="navbar-brand"
-          data-testid="link"
-          href="/"
-        >
-          <h1>
-            David's Portfolio
-          </h1>
-        </a>
         <div
-          class="d-flex"
+          class="container-fluid "
         >
-          <div
-            class="navbar-nav"
+          <a
+            class="navbar-brand"
+            data-testid="link"
+            href="/"
           >
-            <a
-              class="nav-link active"
-              data-testid="about"
-              href="#about"
+            <h1>
+              David's Portfolio
+            </h1>
+          </a>
+          <ul
+            class="navbar-nav "
+          >
+            <li
+              class="navActive"
             >
-              <h3>
-                About Me
-              </h3>
-            </a>
-            <a
-              class="nav-link active"
-              href="#work"
+              <a
+                class="nav-link active"
+                data-testid="about"
+                href="#about"
+              >
+                <h3>
+                  About Me
+                </h3>
+              </a>
+            </li>
+            <li
+              class="false"
             >
-              <h3>
-                Work
-              </h3>
-            </a>
-            <a
-              class="nav-link active"
-              href="#contact-me"
+              <a
+                class="nav-link active"
+                href="#work"
+              >
+                <h3>
+                  My Projects
+                </h3>
+              </a>
+            </li>
+            <li
+              class="false"
             >
-              <h3>
-                Contact
-              </h3>
-            </a>
-            <a
-              class="nav-link active"
-              href="#resume"
+              <a
+                class="nav-link active"
+                href="#contact-me"
+              >
+                <h3>
+                  Contact
+                </h3>
+              </a>
+            </li>
+            <li
+              class="false"
             >
-              <h3>
-                Resume
-              </h3>
-            </a>
-          </div>
+              <a
+                class="nav-link active"
+                href="#resume"
+              >
+                <h3>
+                  Resume
+                </h3>
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <main>
       <section
         id="about-section"
@@ -71,7 +85,7 @@ exports[`App component matches snapshot 1`] = `
         <img
           alt="cover"
           class="cover-image"
-          src="mountain2.jpg"
+          src="mountain2-min.jpg"
           style="width: 100%;"
         />
         <div
@@ -86,22 +100,24 @@ exports[`App component matches snapshot 1`] = `
         </div>
         <div
           class="container"
+          id="about-content"
         >
           <div
-            class="row"
+            class="row justify-content-lg-center"
           >
             <div
-              class="col-md-6"
+              class="col-lg-6"
+              id="image-id"
             >
               <img
                 alt="David hiking in fall"
                 class="personal-photo"
                 id="about-me-img"
-                src="IMG_3529.jpg"
+                src="IMG_3529-min.jpg"
               />
             </div>
             <div
-              class="col-md-6"
+              class="col-lg-6"
               id="about-text"
             >
               <p>
@@ -122,7 +138,7 @@ exports[`App component matches snapshot 1`] = `
         >
           My Info:
           <a
-            href="https://github.com/ds1242"
+            href="https://bit.ly/3eKK7uy"
             rel="noreferrer noopener"
             target="_blank"
           >
@@ -131,7 +147,7 @@ exports[`App component matches snapshot 1`] = `
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/david-shaw1242"
+            href="https://bit.ly/3x0CDd4"
             rel="noreferrer noopener"
             target="_blank"
           >

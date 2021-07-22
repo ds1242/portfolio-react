@@ -12,7 +12,7 @@ exports[`Footer component matches snapshot DOM node structure 1`] = `
       >
         My Info:
         <a
-          href="https://github.com/ds1242"
+          href="https://bit.ly/3eKK7uy"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -21,7 +21,7 @@ exports[`Footer component matches snapshot DOM node structure 1`] = `
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/david-shaw1242"
+          href="https://bit.ly/3x0CDd4"
           rel="noreferrer noopener"
           target="_blank"
         >
