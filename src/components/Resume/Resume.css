@@ -1,0 +1,15 @@
+#resume-section {
+    align-items: center;
+}
+
+#resume-section h1{
+    text-align: center;
+    padding: 20px;
+    color: var(--primary_color);
+    text-shadow: 2px 2px var(--secondary_color);
+    
+}
+
+#resume-card{
+    width: 65vw;
+}

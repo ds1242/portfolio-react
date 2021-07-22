@@ -1,6 +1,6 @@
 import React from 'react';
-import coverImage from '../../assets/imgs/mountain2.jpg';
-import awesomeImage from '../../assets/imgs/IMG_3529.jpg';
+import coverImage from '../../assets/imgs/mountain2-min.jpg';
+import awesomeImage from '../../assets/imgs/IMG_3529-min.jpg';
 import './About.css';
 
 

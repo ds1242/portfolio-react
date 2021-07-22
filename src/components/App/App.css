@@ -41,3 +41,14 @@ footer i:hover{
   text-shadow:2px 2px 5px var(--tertiary_color);
 }
 
+
+#resume-section {
+  text-align: center;
+  align-content: center;
+  padding: 25px;
+}
+
+#resume-card{
+  width: 65vw;
+}
+
