@@ -29,13 +29,23 @@ function App() {
       setResumeSelected={setResumeSelected}
       ></Nav>
       <main>
+        {(!aboutSelected && !contactSelected && !resumeSelected) ?(
+          <>
+            <Work></Work>
+          </>  
+        ) :(!workSelected && !aboutSelected && !resumeSelected) ? (
+          <>
+            <ContactForm></ContactForm>
+          </>
+        ) : (!workSelected && !contactSelected && !aboutSelected) ? (
+          <>
+            <Resume></Resume>
+          </>
+        ) : (
+          <About aboutText={aboutText}></About>
+        )}        
+        </main>   
         
-        <About aboutText={aboutText}></About>
-        <Work></Work>
-        <ContactForm></ContactForm>
-        <Resume></Resume>
-      </main>   
-
       <Footer></Footer>
    </div>
   );
