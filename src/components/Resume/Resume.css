@@ -3,6 +3,8 @@
 } */
 #card-link {
     width: auto;
+    text-decoration: none;
+    font-size: 2vw;
 }
 #resume-section h1{
     text-align: center;
@@ -48,5 +50,8 @@
     #resume-card{
         width: auto;
         align-content: center;
+    }
+    #card-link{
+        font-size: 25px;
     }
 }
