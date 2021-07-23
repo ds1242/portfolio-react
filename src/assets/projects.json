@@ -1,0 +1,75 @@
+
+[
+    {
+        "id":1,
+        "title":"Secret Show",
+        "link":"https://secret-show.herokuapp.com/",
+        "github":"https://github.com/ds1242/secret-show-v2",
+        "img":"./imgs/secret_show-min.jpg",
+        "alt":"login homepage for the secret show app",
+        "description":"This application was a group project which I was collaborator and contributed work.  This application allows bands and fans to log in view tiny local shows.  For example, Band 1 is playing at Bar X.  The band can list details of the show location, time, price and add their Youtube video id if applicable so potential fans can listen to their music prior to going to the show.  ",
+        "tools1":"HTML/CSS/JavaScript/MySQL",
+        "tools2":"Handlebars/Express/Node.js/Heroku"
+
+    },
+    {
+        "id":2,
+        "title":"Tree of Knowledge",
+        "link":"https://ds1242.github.io/tree-of-knowledge/",
+        "github":"https://github.com/ds1242/tree-of-knowledge",
+        "img":"./imgs/tree_of_knowledge-min.jpg",
+        "alt":"homepage for tree of knowledge",
+        "description":"This was a group project which I was a collaborator and contributed work on. This web appliation allows users to search for books by either title, author, or subject.  It uses the Google Books API to pull book data and display it for a user",
+        "tools1":"HTML/CSS/JavaScript",
+        "tools2":"Foundation/Github Pages"
+
+    },
+    {
+        "id":3,
+        "title":"David's Tech Blog",
+        "link":"https://guarded-cliffs-83768.herokuapp.com/",
+        "github":"https://github.com/ds1242/tech-blog",
+        "img":"./imgs/davids-tech-blog-min.jpg",
+        "alt":"tech blog homepage",
+        "description":"This is a blog style website that allows users to signup, add posts, and comment on other posts.  This webpage uses Handlebars to render each section of the application and the data is stored using Sequelize modals in a database hosted by Heroku. ",
+        "tools1":"HTML/CSS/JavaScript/Sequelize",
+        "tools2":"Handlebars/Express/Node.js/Heroku"
+
+    },
+    {
+        "id":4,
+        "title":"Budget Tracker PWA",
+        "link":"https://sheltered-spire-37614.herokuapp.com/",
+        "github":"https://github.com/ds1242/budget-tracker-pwa",
+        "img":"./imgs/budget-tracker-min.png",
+        "alt":"homepage of budget tracker application",
+        "description":"Took established example code for a budget tracker and implented technologies and methods to optimize and add offline functionality.  This includes adding a IndexDB to store transactions that will be added whe the user loses and regains functionality.",
+        "tools1":"HTML/CSS/JavaScript/NoSQL",
+        "tools2":"IndexDB/Service Worker/Mongoose"
+
+    },
+    {
+        "id":5,
+        "title":"David's Weather Dashboard",
+        "link":"https://ds1242.github.io/weather-dashboard/",
+        "github":"https://github.com/ds1242/weather-dashboard",
+        "img":"./imgs/davids-weather-dashboard-min.jpg",
+        "alt":"weather dashboard homepage",
+        "description":"This simple web application uses the Open Weather API to take the location entered by a user and pull up the weather report for that location.  It also uses local storage to save the searches so users can keep several past searches for future use.",
+        "tools1":"HTML/CSS/JavaScript",
+        "tools2":"Moment.js/OpenWeather API"
+
+    },
+    {
+        "id":6,
+        "title":"Note Taker",
+        "link":"https://fierce-fjord-09218.herokuapp.com/notes",
+        "github":"https://github.com/ds1242/note-taker",
+        "img":"./imgs/note-taker-min.png",
+        "alt":"user view of David's note taker application",
+        "description":"This application allows a user to write and save notes. The notes are written to a JSON file so they can be retrieved anytime. The application front end was already written so I worked to create the routes on server.js which implemented the functionality of the webpage. This application uses express for the routes to function. I also added uuid to the project to generate a unique id each time a new note is created. This allows for the id on each note to help identify the index in the array when using the delete function of the app. Finally this application uses Heroku to deploy to a live environment. ",
+        "tools1":"HTML/CSS/JavaScript/UUID",
+        "tools2":"Express/Node.js/Heroku"
+
+    }
+]
