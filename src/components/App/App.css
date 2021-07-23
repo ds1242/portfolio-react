@@ -67,7 +67,7 @@ h3{
   text-align: center;
   color: var(--primary_color);
 }
-.modalBackdrop {
+/* .modalBackdrop {
 	background: rgba(0, 0, 0, .65);
 	bottom: 0;
 	left: 0;
@@ -91,4 +91,4 @@ h3{
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 25px;
-}
+} */
