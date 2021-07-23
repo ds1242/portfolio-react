@@ -56,3 +56,10 @@ footer i:hover{
   text-decoration: underline;
   text-decoration-color: var(--secondary_color);
 }
+
+h2{
+  text-align: center;
+  padding: 20px;
+  color: var(--primary_color);
+  text-shadow: 2px 2px var(--secondary_color);
+}

@@ -1,10 +1,4 @@
-#about-title h1{
-    text-align: center;
-    padding: 20px;
-    color: var(--primary_color);
-    text-shadow: 2px 2px var(--secondary_color);
-    /* border-bottom: 2px solid var(--primary_color);  */
-}
+
 
 #about-me-img {
     width:60%;

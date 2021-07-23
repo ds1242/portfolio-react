@@ -1,0 +1,29 @@
+
+#card-header {
+    height: 23rem;
+    margin: 1rem;
+    width: 25rem;
+    text-align: center;
+    border-radius: 21px;
+    
+}
+#card-header:hover {
+    filter:brightness(50%);
+    box-shadow:  5px 5px 10px var(--secondary_color);
+    border-radius: 20px;
+}
+#card-header a {
+    text-decoration: none;
+}
+
+#card-img{
+    margin: 0;
+    padding: 0;
+    height:15rem;
+}
+
+#project-body{
+    height: 5rem;
+}
+
+  

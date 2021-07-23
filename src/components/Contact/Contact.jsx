@@ -42,7 +42,7 @@ function ContactForm() {
 
     return (
         <section>
-            <h1 datatest-id='contact' id='contact-me'>Contact Me</h1>
+            <h2 datatest-id='contact' id='contact-me'>Contact Me</h2>
             <form id='contact-form' onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>

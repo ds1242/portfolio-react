@@ -6,7 +6,7 @@ import Footer from '../Footer';
 import ContactForm from '../Contact';
 import Resume from '../Resume';
 import Work from '../Work';
-import projects from '../../assets/projects.json';
+// import projects from '../../assets/projects.json';
 
 
 

@@ -7,7 +7,7 @@ import './Resume.css';
 function Resume() {
     return(
         <section id="resume-section">
-            <h1 datatest-id='resume' className='resume' id="resume">Resume</h1>
+            <h2 datatest-id='resume' className='resume' id="resume">Resume</h2>
             <div className="row justify-content-md-center">
                 
                 <a href={resumeDoc} id="card-link" download="resume">
