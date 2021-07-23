@@ -8,8 +8,10 @@ function About(props) {
     return (
         <section id="about-section">            
             <img src={coverImage} className="cover-image" style={{ width: "100%" }} alt="cover" />
-            <div className="row" id="about-title">
-                <h2 id="about">Who Am I</h2>
+            <div className="container-fluid">
+                <div className="row" id="about-title">
+                    <h2 id="about">Who Am I</h2>
+                </div>
             </div>
             <div className="container" id="about-content">
                 <div className="row justify-content-lg-center">
