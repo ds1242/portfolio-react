@@ -1,11 +1,27 @@
 #modal-img {
     width: 100%;
 }
+.modal-content a {
+    text-decoration: none;
+    color: var(--secondary_color);
+}
 .modal-content{
     height: auto;
+    background-color: var(--tertiary_color);
 }
 .modal-header{
     justify-content:  center;
     width: 100%;
     height: auto;
+}
+
+.btn-secondary{
+    background-color: var(--primary_color);
+    color: var(--secondary_color);
+    border-color: var(--primary_color);
+}
+.btn-secondary:hover{
+    background-color: var(--secondary_color);
+    color: var(--primary_color);
+    border-color: var(--secondary_color);
 }

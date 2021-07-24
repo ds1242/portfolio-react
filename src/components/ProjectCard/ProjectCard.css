@@ -37,8 +37,12 @@
     background-color: var(--secondary_color);
     border-color: var(--secondary_color);;
 }
-.outline-primary{
-    color: var(--secondary_color);
+.btn-check:focus,
+.btn-primary:focus {
+    color:var(--primary_color);
+    background-color: var(--secondary_color);
+    border-color: var(--secondary_color);
+    box-shadow: 0 0 0 0.25rem var(--secondary_color / 50%);
 }
 
   
