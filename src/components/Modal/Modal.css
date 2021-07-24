@@ -1,0 +1,11 @@
+#modal-img {
+    width: 100%;
+}
+.modal-content{
+    height: auto;
+}
+.modal-header{
+    justify-content:  center;
+    width: 100%;
+    height: auto;
+}
