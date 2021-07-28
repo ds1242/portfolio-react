@@ -12,14 +12,18 @@ exports[`About component matches snapshot DOM node structure 1`] = `
       style="width: 100%;"
     />
     <div
-      class="row"
-      id="about-title"
+      class="container-fluid"
     >
-      <h1
-        id="about"
+      <div
+        class="row"
+        id="about-title"
       >
-        Who Am I
-      </h1>
+        <h2
+          id="about"
+        >
+          Who Am I
+        </h2>
+      </div>
     </div>
     <div
       class="container"

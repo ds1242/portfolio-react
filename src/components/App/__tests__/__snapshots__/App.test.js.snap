@@ -89,14 +89,18 @@ exports[`App component matches snapshot 1`] = `
           style="width: 100%;"
         />
         <div
-          class="row"
-          id="about-title"
+          class="container-fluid"
         >
-          <h1
-            id="about"
+          <div
+            class="row"
+            id="about-title"
           >
-            Who Am I
-          </h1>
+            <h2
+              id="about"
+            >
+              Who Am I
+            </h2>
+          </div>
         </div>
         <div
           class="container"
@@ -129,7 +133,7 @@ exports[`App component matches snapshot 1`] = `
       </section>
     </main>
     <footer
-      class="footer mt-auto "
+      class="footer mb-auto"
       datatest-id="footer"
     >
       <div>
