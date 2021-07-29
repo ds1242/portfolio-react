@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.502d89cb.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.0abcf193.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.0abcf193.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.de6f51b1.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.de6f51b1.js.map",
+    "static/css/2.bf1bd0aa.chunk.css": "/portfolio-react/static/css/2.bf1bd0aa.chunk.css",
+    "static/js/2.838bcd39.chunk.js": "/portfolio-react/static/js/2.838bcd39.chunk.js",
+    "static/js/2.838bcd39.chunk.js.map": "/portfolio-react/static/js/2.838bcd39.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/2.bf1bd0aa.chunk.css.map": "/portfolio-react/static/css/2.bf1bd0aa.chunk.css.map",
+    "static/css/main.502d89cb.chunk.css.map": "/portfolio-react/static/css/main.502d89cb.chunk.css.map",
+    "static/js/2.838bcd39.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.838bcd39.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/portfolio-react/static/media/1.428aeaa6.jpg",
+    "static/media/2.jpg": "/portfolio-react/static/media/2.35b18875.jpg",
+    "static/media/3.jpg": "/portfolio-react/static/media/3.c1b8a891.jpg",
+    "static/media/4.jpg": "/portfolio-react/static/media/4.07bbac84.jpg",
+    "static/media/5.jpg": "/portfolio-react/static/media/5.019998de.jpg",
+    "static/media/6.jpg": "/portfolio-react/static/media/6.4d29e7c8.jpg",
+    "static/media/David_Shaw_Resume_July2021.5011f1c1.pdf": "/portfolio-react/static/media/David_Shaw_Resume_July2021.5011f1c1.pdf",
+    "static/media/IMG_3529-min.jpg": "/portfolio-react/static/media/IMG_3529-min.4a9b2e54.jpg",
+    "static/media/IMG_3529.jpg": "/portfolio-react/static/media/IMG_3529.5876292c.jpg",
+    "static/media/bootstrap-icons.css": "/portfolio-react/static/media/bootstrap-icons.dfd0ea12.woff2",
+    "static/media/davids-tech-blog.jpg": "/portfolio-react/static/media/davids-tech-blog.a1277507.jpg",
+    "static/media/davids-weather-dashboard.jpg": "/portfolio-react/static/media/davids-weather-dashboard.9bc99980.jpg",
+    "static/media/mountain.jpg": "/portfolio-react/static/media/mountain.60f2b8c0.jpg",
+    "static/media/mountain2-min.jpg": "/portfolio-react/static/media/mountain2-min.91108eff.jpg",
+    "static/media/mountain2.jpg": "/portfolio-react/static/media/mountain2.972f2f99.jpg",
+    "static/media/resume_snapshot.4b5ecb2e.png": "/portfolio-react/static/media/resume_snapshot.4b5ecb2e.png",
+    "static/media/secret_show.jpg": "/portfolio-react/static/media/secret_show.1c5ba7d1.jpg",
+    "static/media/tree_of_knowledge.jpg": "/portfolio-react/static/media/tree_of_knowledge.856d5eab.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de6f51b1.js",
+    "static/css/2.bf1bd0aa.chunk.css",
+    "static/js/2.838bcd39.chunk.js",
+    "static/css/main.502d89cb.chunk.css",
+    "static/js/main.0abcf193.chunk.js"
+  ]
+}
