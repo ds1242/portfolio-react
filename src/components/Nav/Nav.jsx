@@ -18,7 +18,7 @@ function Nav(props) {
         <header>            
         <nav className="navbar navbar-expand-sm" data-testid="navbar">
             <div className="container-fluid ">
-                <a className="navbar-brand"  data-testid="link" href="#">
+                <a className="navbar-brand"  data-testid="link" href="/">
                     <h1>David's Portfolio</h1>
                 </a>
                     <ul className="navbar-nav ">
