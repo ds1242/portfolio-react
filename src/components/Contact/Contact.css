@@ -14,9 +14,15 @@
 input {
     width: 100%;
 }
+input h3 {
+    color: var(--secondary_color);
+}
+
 textarea {
     width: 100%;
 }
 #form-button {
+    margin-top: 2vh;
+    margin-bottom: 10vh;
     width: 100%;
 }

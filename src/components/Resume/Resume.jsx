@@ -12,7 +12,7 @@ function Resume() {
                 
                 <a href={resumeDoc} id="card-link" download="resume">
                     <div className="card" id='resume-card'>
-                        <img className="card-img-top" src={resumePreview} alt="preview of resume" />
+                        <img className="card-img-top" id="resume-img-top" src={resumePreview} alt="preview of resume" />
                         <div className="card-body">
                             <p className="card-text">Click To Download Resume</p>
                         </div>

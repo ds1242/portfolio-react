@@ -44,23 +44,23 @@ function ContactForm() {
         <section>
             <h2 datatest-id='contact' id='contact-me'>Contact Me</h2>
             <div className='row justify-content-md-center'>
-                <div className="col col-8">
+                <div className="col col-lg-8">
                     <form id='contact-form' onSubmit={handleSubmit}>
                         <div className="form-row">
                             <div className="form-group">
-                                <label htmlFor="name">Name:</label>
+                                <label htmlFor="name" id="form-text"><h3>Name:</h3></label>
                                 <input type='text' className="form-control" name='name' defaultValue={name} onBlur={handleChange} />
                             </div>
                         </div>
                         <div className="form-row">
                             <div className="form-group">
-                                <label htmlFor="email">Email:</label>
+                                <label htmlFor="email" id="form-text"><h3>Email:</h3></label>
                                 <input type='email' className="form-control" name='email' defaultValue={email} onBlur={handleChange} />
                             </div>
                         </div>
                         <div className="form-row">
                             <div className="form-group">
-                                <label htmlFor="message">Message:</label>
+                                <label htmlFor="message" id="form-text"><h3>Message:</h3></label>
                                 <textarea name='message' className="form-control" rows="5" defaultValue={message} onBlur={handleChange} />
                             </div>
                         </div>
