@@ -73,7 +73,14 @@ function ContactForm() {
                     </form>
                 </div>
             </div>
-
+            <div className='row justify-content-md-center' id="contact-info-h1">
+                <div className="col col-lg-4 justify-content-md-center">
+                    <h2>My Github: <a href="https://bit.ly/3eKK7uy" target="_blank" rel='noreferrer noopener'><i className="bi bi-github"></i> Profile</a></h2>
+                </div>
+                <div className="col col-lg-4 justify-content-md-center">
+                    <h2>My LinkedIn: <a href="https://bit.ly/3x0CDd4" target="_blank" rel='noreferrer noopener'><i className="bi bi-linkedin"></i> Profile</a></h2>
+                </div>
+            </div>
         </section>
     )
 }
