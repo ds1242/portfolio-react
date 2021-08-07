@@ -22,7 +22,12 @@ function About(props) {
                         <p>{props.aboutText}</p>
                     </div>
                 </div>
-            </div>    
+            </div>  
+            <div className="container-fluid">
+                <div className="row" id="about-title">
+                    <h2 id="about">Skills</h2>
+                </div>
+            </div>  
         </section>
     )
 }
