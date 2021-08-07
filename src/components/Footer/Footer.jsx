@@ -15,7 +15,7 @@ function Footer() {
             </div>
             <div className="row justify-content-md-center">
                 <div className="col-md-auto">
-                    <h5 datatest-id="date">Copyright &copy; {new Date().getFullYear()}</h5>
+                    <h5 datatest-id="date">David Shaw &copy; {new Date().getFullYear()}</h5>
                 </div>
             </div>
 

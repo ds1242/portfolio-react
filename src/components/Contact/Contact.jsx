@@ -1,85 +1,36 @@
-import React, { useState } from 'react';
-import { validateEmail } from '../../assets/utils/helpers';
+import React from 'react';
+// import { Card } from 'react-bootstrap';
+// import { validateEmail } from '../../assets/utils/helpers';
+import resumeDoc from '../../assets/docs/David_Shaw_Resume_July2021.pdf';
 import './Contact.css';
 
 function ContactForm() {
-    const [ formState, setFormState] = useState({ name: '', email: '', message: ''});
-    const [ errorMessage, setErrorMessage ] = useState('');
-    const { name, email, message } = formState;
-
-    function handleChange(event) {
-        if(event.target.name === 'email') {
-            const isValid = validateEmail(event.target.value);
-            console.log(isValid);
-            if(!isValid) {
-                setErrorMessage('Email is invalid');
-            } else {
-                if(!event.target.value.length) {
-                    console.log("length is zero", event.target.value.length === 0)
-                    setErrorMessage(`${event.target.name} is required.`);
-                } else {
-                    setErrorMessage('');
-                }
-            }
-        }
-        if(event.target.name ==='name') {
-            if(!event.target.value.length) {
-                console.log("length is zero", event.target.value.length === 0)
-                setErrorMessage(`${event.target.name} is required.`);
-            } else {
-                setErrorMessage('');
-            }
-        }
-        if(!errorMessage) {
-            setFormState({...formState, [event.target.name]: event.target.value })
-        }
-    }
-
-    function handleSubmit(event) {
-        event.preventDefault();
-        console.log(formState);
-    }
+    
 
     return (
         <section>
-            <h2 datatest-id='contact' id='contact-me'>Contact Me</h2>
-            <div className='row justify-content-md-center'>
-                <div className="col col-lg-8">
-                    <form id='contact-form' onSubmit={handleSubmit}>
-                        <div className="form-row">
-                            <div className="form-group">
-                                <label htmlFor="name" id="form-text"><h3>Name:</h3></label>
-                                <input type='text' className="form-control" name='name' defaultValue={name} onBlur={handleChange} />
-                            </div>
-                        </div>
-                        <div className="form-row">
-                            <div className="form-group">
-                                <label htmlFor="email" id="form-text"><h3>Email:</h3></label>
-                                <input type='email' className="form-control" name='email' defaultValue={email} onBlur={handleChange} />
-                            </div>
-                        </div>
-                        <div className="form-row">
-                            <div className="form-group">
-                                <label htmlFor="message" id="form-text"><h3>Message:</h3></label>
-                                <textarea name='message' className="form-control" rows="5" defaultValue={message} onBlur={handleChange} />
-                            </div>
-                        </div>
-                        {errorMessage && (
-                            <div>
-                                <p className="error-message">{errorMessage}</p>
-                            </div>
-                        )}
-                        <button type="submit" data-testid="submitButton" className='btn btn-primary btn-lg' id='form-button'>Submit</button>
-                    </form>
+            <h2 datatest-id='contact' id='contact-me'>How To Contact Me:</h2>            
+            <div className='row justify-content-center' id="contact-info">
+                <div className='card w-50 h-50' id='contact-card'>
+                    <div class='card-body'>
+                    <h3 className='card-title justify-content-center'>If you have any questions or would like to contact me.   Feel free to reach out with any of the following methods.</h3>
+                    <br></br>
+                    <div className='card-subtitle'>
+                        <h4 className='card-text'>Click here for my <a href={resumeDoc} download="resume">resume</a></h4>
+                        <h4 className='card-text'>Or email me at <a href='mailto:david.shaw1242@gmail.com'>david.shaw1242@gmail.com</a></h4>
+                        <h3>
+                            <a href="https://bit.ly/3eKK7uy" target="_blank" rel='noreferrer noopener' id='icon-link'><i className="bi bi-github"></i></a>
+                            <a href="https://bit.ly/3x0CDd4" target="_blank" rel='noreferrer noopener' id='icon-link'><i className="bi bi-linkedin"></i></a>
+                        </h3>
+
+                    </div>
+
+                    </div>
                 </div>
-            </div>
-            <div className='row justify-content-md-center' id="contact-info-h1">
-                <div className="col col-lg-4 justify-content-md-center">
-                    <h2>My Github: <a href="https://bit.ly/3eKK7uy" target="_blank" rel='noreferrer noopener'><i className="bi bi-github"></i> Profile</a></h2>
-                </div>
-                <div className="col col-lg-4 justify-content-md-center">
-                    <h2>My LinkedIn: <a href="https://bit.ly/3x0CDd4" target="_blank" rel='noreferrer noopener'><i className="bi bi-linkedin"></i> Profile</a></h2>
-                </div>
+                {/* <div className="col col-lg-4 justify-content-md-center"> */}
+                {/* </div> */}
+                {/* <div className="col col-lg-4 justify-content-md-center"> */}
+                {/* </div> */}
             </div>
         </section>
     )
