@@ -45,4 +45,13 @@
         font-size: 24px;
         padding: 25px 0 25 0;
     }
+    #icons {
+        display: flex;
+        align-items: center;
+        width: 5vw;
+        height: 5vw;
+        margin: 0;
+    
+
+    }
 }

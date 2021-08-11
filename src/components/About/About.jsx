@@ -28,7 +28,7 @@ function About(props) {
                 <div className="row" id="about-title">
                     <h2 id="about">Skills</h2>
                     <div className='row justify-content-center'>
-                        <div className='col col-lg-12 '>
+                        <div className='col col-lg-auto col-sm-auto'>
                             <Icon icon="logos:html-5" id='icons'/>
                             <Icon icon="logos:css-3" id='icons'/>
                             <Icon icon="logos:javascript" id='icons'/>
