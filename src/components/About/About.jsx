@@ -25,10 +25,10 @@ function About(props) {
                 </div>
             </div>  
 
-                <div className="row" id="about-title">
+                <div className="row justify-content-center" id="about-title">
                     <h2 id="about">Skills</h2>
                     <div className='row justify-content-center'>
-                        <div className='col col-lg-auto col-sm-auto'>
+                        <div className='col col-lg-auto '>
                             <Icon icon="logos:html-5" id='icons'/>
                             <Icon icon="logos:css-3" id='icons'/>
                             <Icon icon="logos:javascript" id='icons'/>
