@@ -18,6 +18,12 @@
     
 }
 
+#icons {
+    width: 5vw;
+    height: 5vw;
+    margin: 5px;
+}
+
 
 @media (max-width: 980px) { 
 
