@@ -2,6 +2,17 @@
 [
     {
         "id":1,
+        "title":"The Underground",
+        "link":"https://floating-lake-70395.herokuapp.com/",
+        "github":"https://github.com/ds1242/the-underground-1",
+        "alt":"login homepage for the underground app",
+        "description":"This application was a group project which I was collaborator and contributed work.  This application allows individuals to advertise their backyard shows and fans to log in view and gain information on or buy tickets.  The show owner can list details of the show location, time, price and add their Youtube video id if applicable so potential fans can listen to their music prior to going to the show.  This application also allows users to leave comments and edit their personal profiles",
+        "tools1":"MongoDB/Express/React/Node.js Stack",
+        "tools2":"Mongoose/Heroku"
+
+    },
+    {
+        "id":2,
         "title":"Secret Show",
         "link":"https://secret-show.herokuapp.com/",
         "github":"https://github.com/ds1242/secret-show-v2",
@@ -12,7 +23,7 @@
 
     },
     {
-        "id":2,
+        "id":3,
         "title":"Tree of Knowledge",
         "link":"https://ds1242.github.io/tree-of-knowledge/",
         "github":"https://github.com/ds1242/tree-of-knowledge",
@@ -23,7 +34,7 @@
 
     },
     {
-        "id":3,
+        "id":4,
         "title":"David's Tech Blog",
         "link":"https://guarded-cliffs-83768.herokuapp.com/",
         "github":"https://github.com/ds1242/tech-blog",
@@ -34,7 +45,7 @@
 
     },
     {
-        "id":4,
+        "id":5,
         "title":"Budget Tracker PWA",
         "link":"https://sheltered-spire-37614.herokuapp.com/",
         "github":"https://github.com/ds1242/budget-tracker-pwa",
@@ -45,7 +56,7 @@
 
     },
     {
-        "id":5,
+        "id":6,
         "title":"David's Weather Dashboard",
         "link":"https://ds1242.github.io/weather-dashboard/",
         "github":"https://github.com/ds1242/weather-dashboard",
@@ -56,7 +67,7 @@
 
     },
     {
-        "id":6,
+        "id":7,
         "title":"Note Taker",
         "link":"https://fierce-fjord-09218.herokuapp.com/notes",
         "github":"https://github.com/ds1242/note-taker",
