@@ -1,6 +1,6 @@
 import React from 'react';
 import resumePreview from '../../assets/imgs/resume_snapshot.png';
-import resumeDoc from '../../assets/docs/David_Shaw_Resume_July2021.pdf';
+import resumeDoc from '../../assets/docs/David_Shaw_Resume_2021.pdf';
 import './Resume.css';
 
 

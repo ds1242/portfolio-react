@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Card } from 'react-bootstrap';
 // import { validateEmail } from '../../assets/utils/helpers';
-import resumeDoc from '../../assets/docs/David_Shaw_Resume_July2021.pdf';
+import resumeDoc from '../../assets/docs/David_Shaw_Resume_2021.pdf';
 import './Contact.css';
 
 function ContactForm() {
