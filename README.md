@@ -1,4 +1,4 @@
- # David Shaw's Portfolio ![badmath](https://img.shields.io/badge/license-MIT-blue)
+ # David Shaw's Portfolio [![Netlify Status](https://api.netlify.com/api/v1/badges/01fdb6e7-c0fd-4404-b71c-7eb77c13e802/deploy-status)](https://app.netlify.com/sites/david-shaw-portfolio/deploys) ![badmath](https://img.shields.io/badge/license-MIT-blue)
 
   ## About/Description
 
