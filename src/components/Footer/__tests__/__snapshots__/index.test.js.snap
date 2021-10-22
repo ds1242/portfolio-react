@@ -3,38 +3,64 @@
 exports[`Footer component matches snapshot DOM node structure 1`] = `
 <DocumentFragment>
   <footer
-    class="footer mb-auto"
+    class="footer mt-auto"
     datatest-id="footer"
   >
-    <div>
-      <h5
-        id="info-id"
+    <div
+      class="row justify-content-md-center"
+    >
+      <div
+        class="col-md-auto"
       >
-        My Info:
-        <a
-          href="https://bit.ly/3eKK7uy"
-          rel="noreferrer noopener"
-          target="_blank"
+        <h5
+          id="info-id"
         >
-          <i
-            class="bi bi-github"
-          />
-        </a>
-        <a
-          href="https://bit.ly/3x0CDd4"
-          rel="noreferrer noopener"
-          target="_blank"
-        >
-          <i
-            class="bi bi-linkedin"
-          />
-        </a>
-      </h5>
-      <h5
-        datatest-id="date"
+          My Info:
+          <a
+            href="https://bit.ly/3eKK7uy"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <i
+              class="bi bi-github"
+              id="footer-icon"
+            />
+          </a>
+          <a
+            href="https://bit.ly/3x0CDd4"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <i
+              class="bi bi-linkedin"
+              id="footer-icon"
+            />
+          </a>
+          <a
+            href="https://bit.ly/3fbDD8b"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <i
+              class="bi bi-stack"
+              id="footer-icon"
+            />
+          </a>
+        </h5>
+      </div>
+    </div>
+    <div
+      class="row justify-content-md-center"
+    >
+      <div
+        class="col-md-auto"
       >
-        Copyright © 2021
-      </h5>
+        <h5
+          datatest-id="date"
+        >
+          David Shaw © 2021
+        </h5>
+      </div>
     </div>
   </footer>
 </DocumentFragment>

@@ -125,46 +125,105 @@ exports[`App component matches snapshot 1`] = `
               id="about-text"
             >
               <p>
-                Full stack web developer with several years of Business Analyst experience and a degree in Information Systems from the University of Utah.  Recently earned a certificate in full stack web development from the University of Utah. Skills in HTML, CSS, Javascript, and Node.js.  Always learning new technologies and improving to strive to create impactful web applications for end users.  My variety of previous experiences provide me with a unique perspective to know when and what questions to ask to ensure that applications provide the best results and utility for end users.
+                Full stack web developer with several years of experience as a Business Analyst with a degree in Information Systems from the University of Utah.  Recently earned a certificate in full stack web development from the University of Utah. Always learning new technologies and striving to create impactful web applications for end users.  My wide range of experience provides me with a unique perspective to know when and what questions to ask to ensure that applications provide the best results and utility for end users.
               </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center"
+          id="about-title"
+        >
+          <h2
+            id="about"
+          >
+            Skills
+          </h2>
+          <div
+            class="row justify-content-center"
+          >
+            <div
+              class="col col-lg-auto "
+            >
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
             </div>
           </div>
         </div>
       </section>
     </main>
     <footer
-      class="footer mb-auto"
+      class="footer mt-auto"
       datatest-id="footer"
     >
-      <div>
-        <h5
-          id="info-id"
+      <div
+        class="row justify-content-md-center"
+      >
+        <div
+          class="col-md-auto"
         >
-          My Info:
-          <a
-            href="https://bit.ly/3eKK7uy"
-            rel="noreferrer noopener"
-            target="_blank"
+          <h5
+            id="info-id"
           >
-            <i
-              class="bi bi-github"
-            />
-          </a>
-          <a
-            href="https://bit.ly/3x0CDd4"
-            rel="noreferrer noopener"
-            target="_blank"
-          >
-            <i
-              class="bi bi-linkedin"
-            />
-          </a>
-        </h5>
-        <h5
-          datatest-id="date"
+            My Info:
+            <a
+              href="https://bit.ly/3eKK7uy"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <i
+                class="bi bi-github"
+                id="footer-icon"
+              />
+            </a>
+            <a
+              href="https://bit.ly/3x0CDd4"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <i
+                class="bi bi-linkedin"
+                id="footer-icon"
+              />
+            </a>
+            <a
+              href="https://bit.ly/3fbDD8b"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <i
+                class="bi bi-stack"
+                id="footer-icon"
+              />
+            </a>
+          </h5>
+        </div>
+      </div>
+      <div
+        class="row justify-content-md-center"
+      >
+        <div
+          class="col-md-auto"
         >
-          Copyright © 2021
-        </h5>
+          <h5
+            datatest-id="date"
+          >
+            David Shaw © 2021
+          </h5>
+        </div>
       </div>
     </footer>
   </div>
