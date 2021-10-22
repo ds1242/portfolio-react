@@ -1,7 +1,18 @@
 
 [
     {
-        "id":1,
+        "id":2,
+        "title":"David's Bike Maintenance App",
+        "link":"https://ds-bike-maintenance.herokuapp.com/",
+        "github":"https://github.com/ds1242/bike-maintenance-tracker",
+        "alt":"Homepage for bike maintenance app",
+        "description":"This application was a project which I created because bicycles have a lot of components that all require various periods of time for maintenance.  This application allows individuals to sign up, enter their bicycles and all their parts and then add rides which adds a total distance and ride time to the correct part.  This works best for road and mountain bikes.",
+        "tools1":"MongoDB/Express/React/Node.js Stack",
+        "tools2":"Mongoose/Heroku"
+
+    },
+    {
+        "id":3,
         "title":"The Underground",
         "link":"https://floating-lake-70395.herokuapp.com/",
         "github":"https://github.com/ds1242/the-underground-1",
@@ -12,7 +23,7 @@
 
     },
     {
-        "id":2,
+        "id":4,
         "title":"Secret Show",
         "link":"https://secret-show.herokuapp.com/",
         "github":"https://github.com/ds1242/secret-show-v2",
@@ -23,7 +34,7 @@
 
     },
     {
-        "id":3,
+        "id":5,
         "title":"Tree of Knowledge",
         "link":"https://ds1242.github.io/tree-of-knowledge/",
         "github":"https://github.com/ds1242/tree-of-knowledge",
@@ -34,7 +45,7 @@
 
     },
     {
-        "id":4,
+        "id":6,
         "title":"David's Tech Blog",
         "link":"https://guarded-cliffs-83768.herokuapp.com/",
         "github":"https://github.com/ds1242/tech-blog",
@@ -45,7 +56,7 @@
 
     },
     {
-        "id":5,
+        "id":7,
         "title":"Budget Tracker PWA",
         "link":"https://sheltered-spire-37614.herokuapp.com/",
         "github":"https://github.com/ds1242/budget-tracker-pwa",
@@ -56,7 +67,7 @@
 
     },
     {
-        "id":6,
+        "id":8,
         "title":"David's Weather Dashboard",
         "link":"https://ds1242.github.io/weather-dashboard/",
         "github":"https://github.com/ds1242/weather-dashboard",
@@ -67,7 +78,7 @@
 
     },
     {
-        "id":7,
+        "id":9,
         "title":"Note Taker",
         "link":"https://fierce-fjord-09218.herokuapp.com/notes",
         "github":"https://github.com/ds1242/note-taker",
