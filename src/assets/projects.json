@@ -24,6 +24,16 @@
     },
     {
         "id":4,
+        "title":"IP Tracker Page",
+        "link":"https://ds1242.github.io/ip-simple/",
+        "github":"https://github.com/ds1242/ip-simple",
+        "alt":"login homepage for the secret show app",
+        "description":"A simple web app which I created alone that makes an API call to identify a user's location and zoom the map to them. User's can also search for IP address and see details related to it. First project using tailwindcss ",
+        "tools1":"HTML/CSS/JavaScript",
+        "tools2":"Node.js/API" 
+    },
+    {
+        "id":5,
         "title":"Secret Show",
         "link":"https://secret-show.herokuapp.com/",
         "github":"https://github.com/ds1242/secret-show-v2",
@@ -34,7 +44,7 @@
 
     },
     {
-        "id":5,
+        "id":6,
         "title":"Tree of Knowledge",
         "link":"https://ds1242.github.io/tree-of-knowledge/",
         "github":"https://github.com/ds1242/tree-of-knowledge",
@@ -45,7 +55,7 @@
 
     },
     {
-        "id":6,
+        "id":7,
         "title":"David's Tech Blog",
         "link":"https://guarded-cliffs-83768.herokuapp.com/",
         "github":"https://github.com/ds1242/tech-blog",
@@ -56,7 +66,7 @@
 
     },
     {
-        "id":7,
+        "id":8,
         "title":"Budget Tracker PWA",
         "link":"https://sheltered-spire-37614.herokuapp.com/",
         "github":"https://github.com/ds1242/budget-tracker-pwa",
@@ -67,7 +77,7 @@
 
     },
     {
-        "id":8,
+        "id":9,
         "title":"David's Weather Dashboard",
         "link":"https://ds1242.github.io/weather-dashboard/",
         "github":"https://github.com/ds1242/weather-dashboard",
@@ -78,7 +88,7 @@
 
     },
     {
-        "id":9,
+        "id":10,
         "title":"Note Taker",
         "link":"https://fierce-fjord-09218.herokuapp.com/notes",
         "github":"https://github.com/ds1242/note-taker",
