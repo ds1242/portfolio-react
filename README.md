@@ -4,7 +4,7 @@
 
   This is a personal portfolio to showcase past projects for potential employers and other individuals.  This portfolio was built using React.js with React-Bootstrap and Bootstrap 5 to help assist with some of the styling and layout. Personal styling was done as well to give it a more unique look and help ensure it's adjustability between mobile and desktop screens. 
 
-  View Page Here: https://ds1242.github.io/portfolio-react/ 
+  View Page Here: https://david-shaw-portfolio.netlify.app/ 
 
   ## Table of Contents
 
